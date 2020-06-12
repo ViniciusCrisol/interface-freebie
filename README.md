@@ -2,7 +2,7 @@
 
 # 📱 Interface Freebie
 
-- 📋 O prjeto foi desenvolvido para estudar interfaces mobile.  
+- 📋 O prjeto foi desenvolvido para estudar o desenvolvimento de interfaces mobile.  
 - 📙 Para o desenvolvimento do back-end foi usado Type Script.
 
 ## 💻 Principais Tecnologias
