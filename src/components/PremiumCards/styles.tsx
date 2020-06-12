@@ -5,6 +5,8 @@ export const Container = styled.View`
   margin-top: 25px;
 `;
 
+export const Button = styled.TouchableOpacity``;
+
 export const Card = styled(LinearGradient)`
   height: 130px;
 

@@ -9,6 +9,7 @@ import AddAccount from './pages/AddAccount';
 import AddManualAccount from './pages/AddManualAccount';
 import Success from './pages/Success';
 import Premium from './pages/Premium';
+import GetPremium from './pages/GetPremium';
 
 const AppStack = createStackNavigator();
 
@@ -30,6 +31,7 @@ const Routes = () => {
         <AppStack.Screen name='AddManualAccount' component={AddManualAccount} />
         <AppStack.Screen name='Success' component={Success} />
         <AppStack.Screen name='Premium' component={Premium} />
+        <AppStack.Screen name='GetPremium' component={GetPremium} />
       </AppStack.Navigator>
     </NavigationContainer>
   );
