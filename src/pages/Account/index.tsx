@@ -15,7 +15,7 @@ const Account: React.FC = () => {
       <Card>
         <Title>{`You don’t have set any account. \n Create one in seconds.`}</Title>
         <ScheduleImage source={schedule} />
-        <GreenButton Title='Add account' To='Profile' />
+        <GreenButton Title='Add account' To='AddAccount' />
       </Card>
       <Footer />
     </Container>
