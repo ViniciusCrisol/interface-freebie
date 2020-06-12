@@ -16,7 +16,7 @@ const GreenButton: React.FC<Title> = ({ Title, To }) => {
   }
 
   return (
-    <SubmitButton onPress={handleNavgigate}>
+    <SubmitButton onPress={handleNavgigate} activeOpacity={0.6}>
       <ButtonBackground colors={['#2DC897', '#7EF192']}>
         <ButtonText>{Title}</ButtonText>
       </ButtonBackground>

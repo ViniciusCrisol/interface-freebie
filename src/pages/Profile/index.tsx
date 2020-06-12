@@ -30,7 +30,7 @@ const Profile: React.FC = () => {
         </PictureContainer>
       </Header>
 
-      <GreenButton Title='Continue' To='InitialPage' />
+      <GreenButton Title='Continue' To='Account' />
     </Container>
   );
 };
