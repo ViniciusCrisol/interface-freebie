@@ -17,7 +17,7 @@ const Register: React.FC = () => {
         <Input keyboardType='numeric' placeholder='Mobile number' />
       </Form>
 
-      <GreenButton To='Profile' Title='Continue' />
+      <GreenButton To='Account' Title='Continue' />
     </Container>
   );
 };

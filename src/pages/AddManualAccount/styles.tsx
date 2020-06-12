@@ -16,14 +16,17 @@ export const HeaderTitle = styled.Text`
   text-align: center;
   font-size: 16px;
   font-weight: bold;
-  color: #1c1c1c;
+  color: white;
 `;
 
 export const Card = styled.View`
   background-color: white;
   height: 80%;
 
-  padding: 20px;
+  padding: 40px 20px;
+
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 
   justify-content: space-between;
 `;

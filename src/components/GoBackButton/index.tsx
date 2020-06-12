@@ -4,7 +4,11 @@ import { useNavigation } from '@react-navigation/native';
 
 import { BackButton } from './styles';
 
-const GoBackButton: React.FC = () => {
+interface ButtonColor {
+  white?: boolean;
+}
+
+const GoBackButton: React.FC<ButtonColor> = ({ white }) => {
   const navigation = useNavigation();
 
   function handleNavigateBack() {
@@ -13,7 +17,11 @@ const GoBackButton: React.FC = () => {
 
   return (
     <BackButton onPress={handleNavigateBack}>
-      <Feather name='arrow-left' size={20} color='#1c1c1c' />
+      <Feather
+        name='arrow-left'
+        size={20}
+        color={white ? 'white' : '#1c1c1c'}
+      />
     </BackButton>
   );
 };

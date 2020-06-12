@@ -4,10 +4,11 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import InitialPage from './pages/InitialPage';
 import Register from './pages/Register';
-import Profile from './pages/Profile';
 import Account from './pages/Account';
 import AddAccount from './pages/AddAccount';
 import AddManualAccount from './pages/AddManualAccount';
+import Success from './pages/Success';
+import Premium from './pages/Premium';
 
 const AppStack = createStackNavigator();
 
@@ -24,10 +25,11 @@ const Routes = () => {
       >
         <AppStack.Screen name='InitialPage' component={InitialPage} />
         <AppStack.Screen name='Register' component={Register} />
-        <AppStack.Screen name='Profile' component={Profile} />
         <AppStack.Screen name='Account' component={Account} />
         <AppStack.Screen name='AddAccount' component={AddAccount} />
         <AppStack.Screen name='AddManualAccount' component={AddManualAccount} />
+        <AppStack.Screen name='Success' component={Success} />
+        <AppStack.Screen name='Premium' component={Premium} />
       </AppStack.Navigator>
     </NavigationContainer>
   );
