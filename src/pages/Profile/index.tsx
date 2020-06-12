@@ -6,6 +6,7 @@ import {
   PictureContainer,
   ProfileImage,
   Label,
+  Message,
 } from './styles';
 
 import GoBackButton from '../../components/GoBackButton';
@@ -23,6 +24,7 @@ const Profile: React.FC = () => {
         <Title Text='More about you' />
 
         <PictureContainer>
+          <Message>Upload your profile picture</Message>
           <ProfileImage source={profile} />
           <Label>Btw, you look great :)</Label>
         </PictureContainer>

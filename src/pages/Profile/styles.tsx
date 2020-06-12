@@ -4,14 +4,37 @@ export const Container = styled.View`
   flex: 1;
 
   padding: 40px 20px;
+
+  align-items: center;
+  justify-content: space-between;
 `;
 
 export const Header = styled.View`
   margin-top: 140px;
 `;
 
-export const PictureContainer = styled.View``;
+export const PictureContainer = styled.View`
+  width: 100%;
+  align-items: center;
+`;
 
-export const ProfileImage = styled.Image``;
+export const Message = styled.Text`
+  margin-top: 40px;
 
-export const Label = styled.Text``;
+  color: #1c1c1c;
+  font-size: 16px;
+`;
+
+export const ProfileImage = styled.Image`
+  width: 100px;
+  height: 100px;
+
+  margin-top: 40px;
+  border-radius: 50px;
+`;
+
+export const Label = styled.Text`
+  margin-top: 40px;
+
+  color: #606060;
+`;
