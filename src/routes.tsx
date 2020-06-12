@@ -7,6 +7,7 @@ import Register from './pages/Register';
 import Profile from './pages/Profile';
 import Account from './pages/Account';
 import AddAccount from './pages/AddAccount';
+import AddManualAccount from './pages/AddManualAccount';
 
 const AppStack = createStackNavigator();
 
@@ -26,6 +27,7 @@ const Routes = () => {
         <AppStack.Screen name='Profile' component={Profile} />
         <AppStack.Screen name='Account' component={Account} />
         <AppStack.Screen name='AddAccount' component={AddAccount} />
+        <AppStack.Screen name='AddManualAccount' component={AddManualAccount} />
       </AppStack.Navigator>
     </NavigationContainer>
   );

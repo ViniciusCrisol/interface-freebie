@@ -4,7 +4,6 @@ import { Container, ItemsContainer } from './styles';
 
 import GoBackButton from '../../components/GoBackButton';
 import Title from '../../components/Title';
-import GreenButton from '../../components/GreenButton';
 import Cards from '../../components/AddAccountCards';
 
 const AddAccount: React.FC = () => {
@@ -15,8 +14,6 @@ const AddAccount: React.FC = () => {
         <Title Text='Add account' />
         <Cards />
       </ItemsContainer>
-
-      <GreenButton Title='Continue' To='Account' />
     </Container>
   );
 };

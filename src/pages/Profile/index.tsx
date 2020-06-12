@@ -22,7 +22,6 @@ const Profile: React.FC = () => {
 
       <Header>
         <Title Text='More about you' />
-
         <PictureContainer>
           <Message>Upload your profile picture</Message>
           <ProfileImage source={profile} />

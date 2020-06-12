@@ -38,7 +38,7 @@ const InitialPage: React.FC = () => {
 
       <PhoneImage source={phone} />
 
-      <Footer start={[0, 0.6]} end={[0, 0.2]} colors={['#F4868D', '#F4868D33']}>
+      <Footer start={[0, 0.6]} end={[0, 0.2]} colors={['#F4868D', '#F4868D00']}>
         <LoginButton>
           <LoginText>Login</LoginText>
         </LoginButton>

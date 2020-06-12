@@ -4,4 +4,6 @@ export const BackButton = styled.TouchableOpacity`
   position: absolute;
   top: 70px;
   left: 20px;
+
+  z-index: 20;
 `;

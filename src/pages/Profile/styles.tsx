@@ -11,6 +11,7 @@ export const Container = styled.View`
 
 export const Header = styled.View`
   margin-top: 140px;
+  width: 100%;
 `;
 
 export const PictureContainer = styled.View`

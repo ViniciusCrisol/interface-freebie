@@ -1,5 +1,6 @@
 import React from 'react';
 import { Feather } from '@expo/vector-icons';
+import { useNavigation } from '@react-navigation/native';
 
 import {
   Container,
@@ -12,9 +13,15 @@ import {
 } from './styles';
 
 const AddAccountCards: React.FC = () => {
+  const navigation = useNavigation();
+
+  function handleNavgigate() {
+    navigation.navigate('AddManualAccount');
+  }
+
   return (
     <Container>
-      <ButtonContainer activeOpacity={0.6}>
+      <ButtonContainer onPress={handleNavgigate} activeOpacity={0.6}>
         <Card
           start={{ x: 0, y: 1 }}
           end={{ x: 1, y: 0 }}
@@ -33,7 +40,7 @@ const AddAccountCards: React.FC = () => {
         </Card>
       </ButtonContainer>
 
-      <ButtonContainer activeOpacity={0.6}>
+      <ButtonContainer onPress={handleNavgigate} activeOpacity={0.6}>
         <Card
           start={{ x: 0, y: 1 }}
           end={{ x: 1, y: 0 }}
